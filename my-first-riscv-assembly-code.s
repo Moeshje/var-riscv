@@ -1,3 +1,5 @@
+.globl __start
+__start:
 # Initialize repetition counter and target
 li x30, 0    # x30 = repetition counter
 li x31, 10   # x31 = number of times to repeat
